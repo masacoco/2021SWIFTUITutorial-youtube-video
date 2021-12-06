@@ -9,6 +9,7 @@ import SwiftUI
 
 struct ContentView: View {
     
+//    private アクセス修飾子、クラスなどの宣言内のみからアクセスできるようになる
     @State private var playerCard = ""
     @State private var cpuCard = ""
     @State private var playerScore = 0
