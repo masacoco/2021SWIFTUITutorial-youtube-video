@@ -38,7 +38,8 @@ struct ContentView: View {
                     
 //                    Generate a random number between 2 and 14
 //                    2から14の間の数字をランダムに表示
-                    let playerRand = Int.random(in: 2...14)
+//                    別の記入方法で書いてある
+                    let playerRand = Int.random(in: 2..<15)
                     let cpuRand = Int.random(in: 2...14)
                     
 //                    Update the cards
